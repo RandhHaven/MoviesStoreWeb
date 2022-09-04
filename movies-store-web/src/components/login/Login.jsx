@@ -1,13 +1,15 @@
 import React from 'react'
-//import './components/login/Login.css'
-//import email from './resources/images/email'
-//import favi from './favicon.svg'
+import './Login.css'
+import email from '../resources/images/email.png'
+import avatar from '../resources/images/avatar.png'
 export const Login = () => {
   return (
     <>
       <div>
         <h1>Login Page</h1>
+          <img src={avatar} alt='avatar' />
           <div>
+            <img src={email} alt='email' />
             <input type="text" placeholder='user name'/>
           </div>
           <div>
@@ -15,7 +17,7 @@ export const Login = () => {
             <input type="password" placeholder='password'/>
           </div>
         </div>
-        <button>
+        <button className='btn-login'>
           Login
         </button>
         <div>
@@ -25,8 +27,7 @@ export const Login = () => {
           <p>
             <a href="#"> Sign up </a>
           </p>
-        </div>
-   
+        </div>   
     </>
   )
 }
