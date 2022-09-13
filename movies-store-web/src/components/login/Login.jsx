@@ -3,6 +3,7 @@ import './Login.css'
 import email from '../resources/images/email.jpg'
 import password from '../resources/images/pass.png'
 import avatar from '../resources/images/avatar.png'
+
 export const Login = () => {
   return (
     <>
@@ -25,9 +26,8 @@ export const Login = () => {
                 <input className="login-input-text" type="password" placeholder='password'/>
               </div>
               <div className="login-button">
-                <button>Login</button>
+                <button type="submit" name="submit">Login</button>
               </div>
-
               <div>
                 <p className="login-link">
                   <a href="#">Forgot password ?</a>

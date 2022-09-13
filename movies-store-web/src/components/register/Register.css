@@ -1,4 +1,4 @@
-.login-body{
+.register-body{
     text-align: center;
     justify-content: center;
     display: flex; 
@@ -7,7 +7,7 @@
     background-color: #e1eaeb9f;
 }
 
-.login-box{
+.register-box{
     display: flex;
     justify-content: center;
     height: 550px;
@@ -18,7 +18,7 @@
     background-color: rgb(255, 255, 255);
 }
 
-.login-imgs{
+.register-imgs{
     padding-top: 20px;
     justify-content: center;
     display: flex;
@@ -34,13 +34,13 @@
     width: 115px;
 }
 
-.login-profile {
+.register-profile {
     height: 100px;
     width: 100px;
     border-radius: 130px;
 }
 
-.login-avatar{
+.register-avatar{
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -49,17 +49,17 @@
     left: calc(50% - 50px);
 }
 
-.login-email{
+.register-email{
     height: 25px;
       width: 25px;
       position: absolute;
       padding: 14px 0 0 25px;
 }
 
-.login-pass-div{
+.register-pass-div{
     padding-top: 20px;
 }
-.login-pass{
+.register-pass{
     height: 25px;
       width: 25px;
       position: absolute;
@@ -88,7 +88,7 @@ button{
     border: none;
 }
 
-.login-button{
+.register-button{
     padding-top: 25px;
 }
 
@@ -102,12 +102,12 @@ input{
     background-color: #fff;
 }
 
-.login-input-text{
+.register-input-text{
     padding-left: 70px;
     font-size: 20px;
 }
 
-.login-link{
+.register-link{
     font-size: 25px;
     font-weight: 400;
 }
@@ -116,7 +116,7 @@ a{
     color: blue;
 }
 
-.login-box a:hover
+.register-box a:hover
 {
     color: #004777;
 }
