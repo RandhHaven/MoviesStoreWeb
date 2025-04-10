@@ -10,7 +10,7 @@
 .login-box{
     display: flex;
     justify-content: center;
-    height: 550px;
+    height: 600px;
     width: 35%;
     box-shadow: 11px 12px 13px 12px rgb(207, 207, 207);
     padding-top: 30px;
@@ -116,7 +116,11 @@ a{
     color: blue;
 }
 
-.login-box a:hover
-{
+.login-box a:hover{
     color: #004777;
+}
+
+.login-tittle{
+    color: #004777;
+    font-size: 25px;
 }

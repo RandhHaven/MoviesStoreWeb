@@ -20,7 +20,7 @@ export const Register = () => {
                   <input className="register-input-text" type="text" placeholder='user name'/>
                 </div>
                 <div className="register-pass-div">
-                  <label value="hola" >hola</label>
+                  <label value="Password" >Password</label>
                   <input className="register-input-text" type="password" placeholder='password'/>
                 </div>
                 <div className="register-pass-div">
